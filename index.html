@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/0252bd3897.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>MJMorrison10 | Intro component with sign up form</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="left-wrapper">
+        <div class="left-text-wrapper">
+          <h1 class="title">Learn to code by watching others</h1>
+          <p class="info">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+      </div>
+
+      <div class="right-wrapper">
+        <div class="sign-up-wrapper">
+          <div class="try-free">
+            <h2 class="try-free-h2">
+              <span>Try it free 7 days</span> then $20/mo. thereafter
+            </h2>
+          </div>
+          <form class="signup-form">
+            <div class="first-name-form">
+              <input class="first-name" type="text" placeholder="First name" />
+              <div class="first-name-exclamation errorBade">
+                <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <div class="first-name-error errorBader">First Name cannot be empty</div>
+            </div>
+
+            <div class="last-name-form">
+              <input class="last-name" type="text" placeholder="Last name" />
+              <div class="last-name-exclamation errorBade">
+                <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <div class="last-name-error errorBade">Last Name cannot be empty</div>
+            </div>
+
+            <div class="email-form">
+              <input class="email" type="email" placeholder="Email Address" />
+              <div class="email-exclamation errorBade">
+                <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <div class="email-error errorBade">Looks like this is not an email</div>
+            </div>
+
+            <div class="password-form">
+              <input class="password" type="password" placeholder="Password" />
+              <div class="password-exclamation errorBade">
+                <i class="fas fa-exclamation-circle"></i>
+              </div>
+              <div class="password-error errorBade">Password cannot be empty</div>
+            </div>
+
+            <input
+              class="free-trial"
+              type="submit"
+              value="CLAIM YOUR FREE TRIAL"
+            />
+            <p class="tos">
+              By clicking the button, you are agreeing to our
+              <a href="#">Terms and Services</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://portfolio-mjm-react.netlify.app/">mjmorrison10</a>.
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
